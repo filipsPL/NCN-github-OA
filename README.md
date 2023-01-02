@@ -58,8 +58,8 @@ How to deal with NCN (National Science Centre, Poland) Open Access rules and Git
 
 ## Additional remarks and optional steps:
 
-1. You may want to enable GitHub actions to chceck validity of `CITATION.cff`, as is done in this repo (`.github/workflows/cffconvert.yml`). You will get a cool badge: [![cffconvert](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml)
-1. When your peer review paper is published and has DOI assigned, you may add this info to `CITATION.cff` file on `identifiers` section.
+1. You may want to enable GitHub actions to check validity of `CITATION.cff`, as is done in this repo (`.github/workflows/cffconvert.yml`). You will get a cool badge: [![cffconvert](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml)
+1. When your peer review, the paper is published and has DOI assigned, you may add this info to `CITATION.cff` file on `identifiers` section.
 
 # Unanswered questions
 
