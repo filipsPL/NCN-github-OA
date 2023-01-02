@@ -1,12 +1,23 @@
 The Unofficial Guide on applying NCN Open Access rules to GitHub repositories
-=========
+======
 
 How to deal with NCN Open Access rules and GitHub repositories - **the unofficial guide**.
+
+
+- [The Unofficial Guide on applying NCN Open Access rules to GitHub repositories](#the-unofficial-guide-on-applying-ncn-open-access-rules-to-github-repositories)
+- [How to](#how-to)
+  - [Additional remarks and optional steps:](#additional-remarks-and-optional-steps)
+- [Unanswered questions](#unanswered-questions)
+- [Discussion](#discussion)
+
+
 
 [![DOI](https://zenodo.org/badge/584345819.svg)](https://zenodo.org/badge/latestdoi/584345819) [![cffconvert](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml)
 
 
 **Notice of Non-Affiliation and Disclaimer**. We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with the GitHub, NCN, or Zenodo.
+
+
 
 # How to
 
@@ -55,3 +66,7 @@ How to deal with NCN Open Access rules and GitHub repositories - **the unofficia
 1. The GitHub repository has an unique DOI, and the following up, peer-reviewed scientific paper also has its own DOI. We (the scientists) want to get citations from the scientific paper. Questions:
    - shall we require others to cite both GitHub repo and scientific paper? Or only the paper?
    - if both are cited, can we merge both citations (eg in Google Scholar)?
+
+# Discussion
+
+Feel free to discuss these matters on the [discussion page](https://github.com/filipsPL/NCN-github-OA/discussions).
