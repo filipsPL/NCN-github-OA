@@ -1,7 +1,7 @@
 The Unofficial Guide on applying NCN Open Access rules to GitHub repositories
 ======
 
-How to deal with NCN Open Access rules and GitHub repositories - **the unofficial guide**.
+How to deal with NCN (National Science Centre, Poland) Open Access rules and GitHub repositories - **the unofficial guide**.
 
 
 - [The Unofficial Guide on applying NCN Open Access rules to GitHub repositories](#the-unofficial-guide-on-applying-ncn-open-access-rules-to-github-repositories)
