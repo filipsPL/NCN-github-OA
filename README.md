@@ -27,16 +27,23 @@ How to deal with NCN Open Access rules and GitHub repositories - **the unofficia
    - Your GitHub settings will be available at [https://zenodo.org/account/settings/github/](https://zenodo.org/account/settings/github/).
    - Enable the integration by switching the repository on:
 ![](obrazki/image-2023-01-02-11-50-58.png)
-   - Go to GitHub and make your first release.
+   - Go to GitHub and make your first release or pre-release:
+![](obrazki/image-2023-01-02-11-52-51.png)
+![](obrazki/image-2023-01-02-11-54-11.png)
+   - at this point your repository will be visible at the appropriate Zenodo page. Please note the status - green means ok, orange means processing, red means error
+![](obrazki/image-2023-01-02-11-55-57.png)
+   - at this point you can add a repository DOI identifier issued by Zenodo to the `.zenodo.json` file (see above). See below on how to get the universal DOI.
 
 2. New DOI is generated every time you do a release (or pre-release) of your repository.
    - each release has a new DOI.
    - to get the one-universal DOI for your repository, at the Zenodo page, right panel, look for *Cite all versions? You can cite all versions by using the DOI...*.
-   - you can add a cool zenodo badge to your repo.
+   - you can add a cool zenodo badge to your repo:
+  [![DOI](https://zenodo.org/badge/584345819.svg)](https://zenodo.org/badge/latestdoi/584345819)
+
 
 Additional remarks and optional steps:
 
-1. You may want to enable GitHub actions to chceck validity of `CITATION.cff`, as is done in this repo (`.github/workflows/cffconvert.yml`).
+1. You may want to enable GitHub actions to chceck validity of `CITATION.cff`, as is done in this repo (`.github/workflows/cffconvert.yml`). You will get a cool badge: [![cffconvert](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml)
 
 # Unanswered questions
 
