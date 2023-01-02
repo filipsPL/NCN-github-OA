@@ -15,7 +15,7 @@ How to deal with NCN (National Science Centre, Poland) Open Access rules and Git
 [![DOI](https://zenodo.org/badge/584345819.svg)](https://zenodo.org/badge/latestdoi/584345819) [![cffconvert](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml)
 
 
-**Notice of Non-Affiliation and Disclaimer**. We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with the GitHub, NCN, or Zenodo.
+**Notice of Non-Affiliation and Disclaimer:** We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with the GitHub, NCN, or Zenodo.
 
 
 
@@ -25,16 +25,16 @@ How to deal with NCN (National Science Centre, Poland) Open Access rules and Git
 
 1. In your repository, create a `CITATION.cff` file with a citation details.
     - You can edit the [this sample one here](CITATION.cff) or use [this wizard](https://citation-file-format.github.io/cff-initializer-javascript) to create one from scratch
-    - The format of file is YAML.
+    - The format of file is YAML
     - license: for data sets it has to be CC0 1.0. What about software? :question:
     - After commit, the citation tool will be available on the right repository panel:<br />
 ![](obrazki/image-2023-01-02-11-42-28.png)
 
 1. In your repository, create a `.zenodo.json` file. You can edit the [this sample one here](.zenodo.json).
-   - Add your grant number in the field *"notes"*.
-   - :warning: polish grants **does not** work with the dedicated field "grants/funding".
-   - some more information on the format and fields are [available here](https://developers.zenodo.org/#introduction).
-   - The format of file is json.
+   - Add your grant number in the field *"notes"*
+   - :warning: Polish grants **do not** work with the dedicated field "grants/funding"
+   - More information on the format and fields are [available here](https://developers.zenodo.org/#introduction)
+   - The format of file is json
    - license: for data sets it has to be CC0 1.0. What about software? :question:
 
 1. Connect Zenodo with GitHub (or vice versa) as [described here](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
