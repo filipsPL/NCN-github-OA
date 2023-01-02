@@ -1,0 +1,24 @@
+{
+  "license": "CC0-1.0",
+  "title": "The Unofficial Guide on applying NCN Open Access rules to GitHub repositories.",
+  "version": "0-1-1",
+  "upload_type": "dataset",
+  "publication_date": "2022-12-21",
+  "language": "eng",
+  "description": "<p><b>The Unofficial Guide on applying NCN Open Access rules to GitHub repositories. <i>Some</i> HTML code can be used here.</p>",
+  "notes": "This research was funded in part by the National Science Centre in Poland (grant number 2020/39/B/NZ2/03127 to F.S.)",
+  "keywords": ["NCN", "Open Access", "Zenodo", "DOI", "tutorial"],
+  "creators": [
+    {
+      "affiliation": "International Institute of Molecular and Cell Biology in Warsaw",
+      "name": "Natalia A. Szulc",
+      "orcid": "0000-0002-2991-3634"
+    },
+    {
+      "affiliation": "International Institute of Molecular and Cell Biology in Warsaw",
+      "name": "Filip Stefaniak",
+      "orcid": "0000-0001-5758-9416"
+    }
+  ],
+  "access_right": "open"
+}
