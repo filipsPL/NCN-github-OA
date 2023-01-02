@@ -5,7 +5,7 @@
   "upload_type": "dataset",
   "publication_date": "2022-12-21",
   "language": "eng",
-  "description": "<p><b>The Unofficial Guide on applying NCN Open Access rules to GitHub repositories. <i>Some</i> HTML code can be used here.</p>",
+  "description": "<p><b>The Unofficial Guide on applying NCN Open Access rules to GitHub repositories.</b> <i>Some</i> HTML code can be used here.</p>",
   "notes": "This research was funded in part by the National Science Centre in Poland (grant number 2020/39/B/NZ2/03127 to F.S.)",
   "keywords": ["NCN", "Open Access", "Zenodo", "DOI", "tutorial"],
   "creators": [
