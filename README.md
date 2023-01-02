@@ -36,7 +36,8 @@ How to deal with NCN Open Access rules and GitHub repositories - **the unofficia
 
 2. New DOI is generated every time you do a release (or pre-release) of your repository.
    - each release has a new DOI.
-   - to get the one-universal DOI for your repository, at the Zenodo page, right panel, look for *Cite all versions? You can cite all versions by using the DOI...*.
+   - to get the one-universal DOI for your repository, at the Zenodo page, right panel, look for *Cite all versions? You can cite all versions by using the DOI...*:
+![](obrazki/image-2023-01-02-12-07-39.png)
    - you can add a cool zenodo badge to your repo:
   [![DOI](https://zenodo.org/badge/584345819.svg)](https://zenodo.org/badge/latestdoi/584345819)
 
