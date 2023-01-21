@@ -1,7 +1,7 @@
-The Unofficial Guide on applying NCN Open Access rules to GitHub repositories
+The Unofficial Guide on applying the NCN Open Access rules to GitHub repositories
 ======
 
-How to deal with NCN (National Science Centre, Poland) Open Access rules and GitHub repositories - **the unofficial guide**.
+How to deal with the NCN (National Science Centre, Poland) Open Access rules and GitHub repositories - **the unofficial guide**.
 
 
 - [How to](#how-to)
@@ -24,7 +24,7 @@ How to deal with NCN (National Science Centre, Poland) Open Access rules and Git
 
 2. In your repository, create a `CITATION.cff` file with a citation details.
     - Use [this wizard](https://citation-file-format.github.io/cff-initializer-javascript) to create a CITATION.cff file, basing on [ours](CITATION.cff) as an example (alternatively, you can customize our CITATION.cff file, but it is more convenient to use the wizard). <br />
-:warning: Add the DOI identifier field and temporarily put there any doi, you will later change it to the DOI obtained via Zenodo.
+:warning: Add the DOI identifier field and temporarily put there any DOI, you will later change it to the DOI obtained via Zenodo for your repository.
     - The format of the file is YAML
     - License: for datasets it has to be CC0 1.0. What about software? :question:
     - After commit, the citation tool will be available on the right repository panel:<br />
@@ -44,7 +44,7 @@ How to deal with NCN (National Science Centre, Poland) Open Access rules and Git
 
 <br />
 
-4. Connect Zenodo with GitHub (or vice versa) as [described here](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
+4. Connect Zenodo to GitHub (or vice versa) as [described here](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
    - Your GitHub settings will be available at [https://zenodo.org/account/settings/github/](https://zenodo.org/account/settings/github/).
    - Enable the integration by switching the repository on:<br />
 ![](obrazki/image-2023-01-02-11-50-58.png)
@@ -66,8 +66,8 @@ How to deal with NCN (National Science Centre, Poland) Open Access rules and Git
 
 ## Additional remarks and optional steps:
 
-1. You may want to enable GitHub actions to check validity of `CITATION.cff`, as is done in this repo (`.github/workflows/cffconvert.yml`). You will get a cool badge: [![cffconvert](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml)
-1. When your peer review, the paper is published and has DOI assigned, you may add this info to `CITATION.cff` file on `identifiers` section.
+1. You may want to enable GitHub actions to check validity of `CITATION.cff`, as is done in this repository (`.github/workflows/cffconvert.yml`). You will get a cool badge: [![cffconvert](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml)
+1. When the paper is published and has DOI assigned, you may add this info to `CITATION.cff` file in `identifiers` section.
 
 # Unanswered questions
 
@@ -77,4 +77,4 @@ How to deal with NCN (National Science Centre, Poland) Open Access rules and Git
 
 # Discussion
 
-Feel free to discuss these matters on the [discussion page](https://github.com/filipsPL/NCN-github-OA/discussions).
+Feel free to discuss these matters on the [Discussions](https://github.com/filipsPL/NCN-github-OA/discussions) page.
