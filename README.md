@@ -1,7 +1,8 @@
-The Unofficial Guide on applying the NCN Open Access rules to GitHub repositories
+Guide how to link GitHub repositories with Zenodo to obtain a DOI
 ======
 
-How to deal with the NCN (National Science Centre, Poland) Open Access rules and GitHub repositories - **the unofficial guide**.
+We originally created this guide to provide hints on how to deal with the rules imposed by our grant agency, the National Science Center (NCN), Poland, 
+regarding publishing in Open Access, GitHub repositories and the need for permanent DOIs. But don't hesitate to use it if you need to link your GitHub repositories to Zenodo for DOI for any other purpose.
 
 
 - [How to](#how-to)
@@ -14,7 +15,7 @@ How to deal with the NCN (National Science Centre, Poland) Open Access rules and
 [![DOI](https://zenodo.org/badge/584345819.svg)](https://zenodo.org/badge/latestdoi/584345819) [![cffconvert](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/filipsPL/NCN-github-OA/actions/workflows/cffconvert.yml)
 
 
-**Notice of Non-Affiliation and Disclaimer:** We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with the GitHub, NCN, or Zenodo.
+**Notice of Non-Affiliation and Disclaimer:** We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with the GitHub,  NCN, or Zenodo.
 
 
 
@@ -26,7 +27,7 @@ How to deal with the NCN (National Science Centre, Poland) Open Access rules and
     - Use [this wizard](https://citation-file-format.github.io/cff-initializer-javascript) to create a CITATION.cff file, basing on [ours](CITATION.cff) as an example (alternatively, you can customize our CITATION.cff file, but it is more convenient to use the wizard). <br />
 :warning: Add the DOI identifier field and temporarily put there any DOI, you will later change it to the DOI obtained via Zenodo for your repository.
     - The format of the file is YAML
-    - License: for datasets it has to be CC0 1.0. What about software? :question:
+    - License: our grant agency, NCN, requires the datasets to be published under the CC0 1.0 licence. What about software? :question:
     - After commit, the citation tool will be available on the right repository panel:<br />
 ![](obrazki/image-2023-01-02-11-42-28.png)
 
@@ -35,7 +36,7 @@ How to deal with the NCN (National Science Centre, Poland) Open Access rules and
    <br />:warning: Polish grants **do not** work with the dedicated field "grants/funding"
    - More information on the format and fields are [available here](https://developers.zenodo.org/#introduction)
    - The format of the file is json
-   - license: for data sets it has to be CC0 1.0. What about software? :question:
+   - license: our grant agency requries the datasets to be licensed under CC0 1.0. What about software? :question:
 
 <br />
 
