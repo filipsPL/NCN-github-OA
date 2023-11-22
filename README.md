@@ -36,7 +36,7 @@ regarding publishing in Open Access, GitHub repositories and the need for perman
    <br />:warning: Polish grants **do not** work with the dedicated field "grants/funding"
    - More information on the format and fields are [available here](https://developers.zenodo.org/#introduction)
    - The format of the file is json
-   - license: our grant agency requries the datasets to be licensed under CC0 1.0. What about software? :question:
+   - license: our grant agency requries the datasets to be licensed under CC0 1.0 or CC BY 4.0 (NCN’s Open Access Policy was recently relaxed in certain cases, see details at [NCN website](https://www.ncn.gov.pl/en/aktualnosci/2023-11-17-zlagodzenie-polityki-oa-materialy-z-webinarium).
 
 <br />
 
